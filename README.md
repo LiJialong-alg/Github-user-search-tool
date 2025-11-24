@@ -1,6 +1,3 @@
-# vue_cli
-
-## Project setup
 # Github-user-search-tool
 
 **作者：** LiJialong-alg
@@ -31,7 +28,7 @@ npm install
 npm run serve
 ```
 
-构建生产包：
+构建生产包（可选）：
 
 ```
 npm run build
@@ -53,46 +50,9 @@ npm run lint
 - 静态托管：构建输出位于 `dist/`，可部署到 GitHub Pages、Netlify、Vercel 等静态托管服务。
 - CI/CD：在 GitHub Actions 中添加构建并发布到 Pages 的 workflow（可在 push 到 `main` 时触发）。
 
-## 提交与推送到 GitHub（说明）
-
-下面给出在本地将项目推送到目标仓库的示例命令：
-
-1) 设置本地 git 用户信息（替换为你的姓名和邮箱）：
-
-```
-git config user.name "你的姓名"
-git config user.email "your.email@example.com"
-```
-
-2) 初始化（如果尚未初始化）、添加远程并推送（优先 HTTPS）：
-
-```
-git init
-git add -A
-git commit -m "Initial commit: add Vue CLI Github-user-search-tool"
-git remote add origin https://github.com/LiJialong-alg/Github-user-search-tool.git
-git branch -M main
-git push -u origin main
-```
-
-如果 HTTPS 推送因为凭据问题失败，可以使用 SSH（假设你已在本机添加过 SSH key 到 GitHub）：
-
-```
-git remote set-url origin git@github.com:LiJialong-alg/Github-user-search-tool.git
-git push -u origin main
-```
-
-## 需要我代为执行的操作
-
-- 我可以在当前工作区替你完成：设置 commit 作者、创建初次 commit、添加远程并尝试推送。
-- 如果你希望我用你的真实身份提交，请回复你的 `user.name` 与 `user.email`，并确认是否允许我尝试通过 HTTPS 推送；若 HTTPS 失败，我将改用 SSH（需要你本机已配置并加载 SSH 私钥）。
 
 ## 其他信息
 - 许可：请根据需要添加 LICENSE 文件（例如 MIT）。
 - 联系：在仓库或备注中提供联系邮箱以便协作。
 
----
 
-感谢使用本工具！如需我现在代为提交并推送，请回复：
-1) 你要使用的 `user.name` 和 `user.email`（例如："李家龙 <lijialong@example.com>"）
-2) 是否优先尝试 HTTPS 推送（默认是），或直接使用 SSH。 
